@@ -1,5 +1,5 @@
 name="Cold War Iron Curtain Dev Build"
-path="C:"
+path="C:/Users/behnamkeivan/Documents/Paradox Interactive/Hearts_of_Iron_IV/mod/Cold War Iron Curtain"
 tags={
 	"Gameplay"
 	"Military"
