@@ -71,8 +71,12 @@ biafra_war_categorty = {
 		cost = 0
 		
 		complete_effect = {
-			NGA = { release = BNN }
-			puppet = BNN
+			release = BNN
+			NGA = { set_autonomy = { target = BNN autonomy_state = autonomy_easternbloc } }
+			BNN = {
+				transfer_state = 1014
+			}
+			BFR = { puppet = BNN }
 			news_event = Biafra_War.2
 		}
 	}
